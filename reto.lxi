@@ -1,0 +1,18 @@
+B 3 C o m p i l a t i o n
+B 95 Equation Listing    SOLVE reto Using MIP From line 84
+D 98 obj
+D 103 r1
+D 112 r2
+D 121 r3
+B 133 Column Listing      SOLVE reto Using MIP From line 84
+E 136 z
+E 143 x
+B 169 Range Statistics    SOLVE reto Using MIP From line 84
+B 180 Model Statistics    SOLVE reto Using MIP From line 84
+B 193 Solution Report     SOLVE reto Using MIP From line 84
+F 237 obj
+F 239 r1
+F 247 r2
+F 255 r3
+G 284 z
+G 286 x

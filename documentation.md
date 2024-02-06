@@ -12,7 +12,7 @@ Here it could also be a possiblity to get the information from other resources s
 Process orchestrated through same pipline via using tools like spark. Search to apply tools such as SCALA.
 
 ### Storage
-Since we are infering is a lot of data running through the system, could check the possibility on storing through HDFS Haddoop, since it haves the possibility for storing a lot of memmory from mulitple types. However
+Since we are infering is a lot of data running through the system, could check the possibility on storing through HDFS Haddoop, since it haves the possibility for storing a lot of memmory from mulitple types. However it will also be interesting to work with NoSQL through Cosmo DB
 
 ### Querying and manipulation
 Maybe for this process it will be easier to model the infromation throug SQL pools serverless since it is compabtible using an spark apache notebook or also through databricks. In case of needing for a SQL pool dedicated, thee is a service in Azure called SQL warehousing. However is also available other services which could include PostgreSQL for its benefts on vertical scalability and ACID compliants needs (Atomicity, Consistency, Isolation and Duatability)

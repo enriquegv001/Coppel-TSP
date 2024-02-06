@@ -18,4 +18,4 @@ Since we are infering is a lot of data running through the system, could check t
 Maybe for this process it will be easier to model the infromation throug SQL pools serverless since it is compabtible using an spark apache notebook or also through databricks. In case of needing for a SQL pool dedicated, thee is a service in Azure called SQL warehousing. However is also available other services which could include PostgreSQL for its benefts on vertical scalability and ACID compliants needs (Atomicity, Consistency, Isolation and Duatability)
 
 ### Analytics and ML
-Finally processed and analysis using Apache Spark with SCALA and python, though this last process check if there is a possibility to do visualizations on 
+Finally processed and analysis using Apache Spark with SCALA and python, though this last process check if there is a possibility to do visualizations on a report.

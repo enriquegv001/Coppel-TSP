@@ -51,10 +51,13 @@ The storage ```projects1lake``` parameters considered:
 - storage: Enable hierarchical namespace is usefull to allow parallel function in Big Data workloads
 
 #### [Synapse Workspace](https://learn.microsoft.com/en-us/azure/synapse-analytics/quickstart-create-workspace)
-From Data Lake account created before, link a new workspace ```ws-route-opti```, thus the synapse data will be store at one of the containers Data Lake, this file system it has been stored as ```route-opti```.
+From Data Lake account created before, link a new workspace ```ws-route-opti```, thus the synapse data will be store at one of the containers Data Lake, this file system it has been stored as ```route-opti```. SQL server credentials (sqladminuser, sqladmin-pa55). After creation, enter the workspace > overview > Open Synapse Studio. 
+
+Next there is a step to [prepare and existing strage](https://learn.microsoft.com/en-us/azure/synapse-analytics/quickstart-create-workspace#prepare-an-existing-storage-account-for-use-with-azure-synapse-analytics), however not applying becasue I have already linked the Data Lake. 
 
 ### Testing
-
+1. Existing storage account need to be prepared?
+2. 
 ### Review
 
 

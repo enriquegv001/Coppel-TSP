@@ -39,7 +39,7 @@ Finally processed and analysis using Apache Spark with SCALA and python, though 
 ### Developing
 #### [Azure Cost Managment billing](https://learn.microsoft.com/en-us/azure/cost-management-billing/understand/mca-overview)
 The spending billing limit in Azure is set by the credit that each account has. For this project the Azure Credit limit is the $100 student credit and can be increased within billing profile > Manage payment methods. Here it depends the type of plan you are choosing to set on the account limit.
-To [assign a budget](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets) the resources are going to be based on ServiceName so that the budgest can be devided into Ingestion(10%), Storage (30%), Transformation or Manipulation (20%), Analytics or ML (10%) and Savings for insurance (30%).  
+To [assign a budget](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets) the resources are going to be based on ServiceName so that the budgest can be devided into Ingestion(10%), Storage (30%), Transformation or Manipulation (20%), Analytics or ML (10%) and Savings for insurance (30%). Next set an alarm for when certain percentage of budget is being reached or forcasted.
 
 
 #### [Data Lake Gen2 storage](https://learn.microsoft.com/en-us/azure/storage/blobs/create-data-lake-storage-account)

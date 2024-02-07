@@ -43,7 +43,7 @@ To [assign a budget](https://learn.microsoft.com/en-us/azure/cost-management-bil
 
 
 #### [Data Lake Gen2 storage](https://learn.microsoft.com/en-us/azure/storage/blobs/create-data-lake-storage-account)
-The storage parameters to consider:
+The storage ```projects1lake``` parameters considered:
 - region: availability, local-remote proximity, cost
 - redundancy: how reliable your system must be?
 - tier: data accessibility and frequency of storage
@@ -51,7 +51,7 @@ The storage parameters to consider:
 - storage: Enable hierarchical namespace is usefull to allow parallel function in Big Data workloads
 
 #### [Synapse Workspace](https://learn.microsoft.com/en-us/azure/synapse-analytics/quickstart-create-workspace)
-From Data Lake account created before it will be linked to the workspace, thus the synapse data will be store at one of the containers (files system from the Data Lake). 
+From Data Lake account created before, link a new workspace ```ws-route-opti```, thus the synapse data will be store at one of the containers Data Lake, this file system it has been stored as ```route-opti```.
 
 ### Testing
 

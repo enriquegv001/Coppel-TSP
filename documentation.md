@@ -37,8 +37,20 @@ Finally processed and analysis using Apache Spark with SCALA and python, though 
 ### Backlog dev
 
 ### Developing
-#### [Azure Buisness Account](https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/mca-setup-account)
+#### [Azure Cost Managment billing](https://learn.microsoft.com/en-us/azure/cost-management-billing/understand/mca-overview)
+The spending billing limit in Azure is set by the credit that each account has. For this project the Azure Credit limit is the $100 student credit and can be increased within billing profile > Manage payment methods. Here it depends the type of plan you are choosing to set on the account limit.
 
+
+#### [Data Lake Gen2 storage](https://learn.microsoft.com/en-us/azure/storage/blobs/create-data-lake-storage-account)
+The storage parameters to consider:
+- region: availability, local-remote proximity, cost
+- redundancy: how reliable your system must be?
+- tier: data accessibility and frequency of storage
+- security: since is priority minimum options should have acivated REST API, enable key accosunt access, min TLS
+- storage: Enable hierarchical namespace is usefull to allow parallel function in Big Data workloads
+
+#### [Synapse Workspace](https://learn.microsoft.com/en-us/azure/synapse-analytics/quickstart-create-workspace)
+From Data Lake account created before it will be linked to the workspace, thus the synapse data will be store at one of the containers (files system from the Data Lake). 
 
 ### Testing
 

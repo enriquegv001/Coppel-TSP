@@ -56,7 +56,7 @@ Done link with GitHub. Usage is to get a control version and map schemas of data
 #### [Data Ingestion from events and messages]([https://learn.microsoft.com/en-us/azure/data-factory/connector-github?tabs=synapse-analytics](https://learn.microsoft.com/en-us/azure/service-bus-messaging/compare-messaging-services)https://learn.microsoft.com/en-us/azure/service-bus-messaging/compare-messaging-services)
 The event is done by taking data into consideration, that a change have happened it captures information via the metadata. Message is raw data to help data store the metadata.
 
-**Event services** Event Grid: PaaS to control the events, Event Grid on Kubernetes: cluster deploy on the cloud or on-premises. Event Hubs: big data streaming plataform.
+**Event services** Event Grid: PaaS to control the events with discreate distribution, Event Grid on Kubernetes: cluster deploy on the cloud or on-premises. Event Hubs: big data countinous streaming plataform.
 **Service Bus** Handles messages through a broker.
 
 

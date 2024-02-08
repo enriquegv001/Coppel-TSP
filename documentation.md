@@ -21,7 +21,6 @@ Maybe for this process it will be easier to model the infromation throug SQL poo
 Finally processed and analysis using Apache Spark with SCALA and python, though this last process check if there is a possibility to do visualizations on a report.
 
 
-
 ## Scrum 
 ### Backlog
 1. Create Azure Cluster via Azure Synapse wher will be linked to  Event Hubs to wather information once it have arrived. This will be a CSV files so they are able to work.
@@ -53,6 +52,13 @@ Next there is a step to [prepare and existing strage](https://learn.microsoft.co
 
 #### [Linked GitHub](https://learn.microsoft.com/en-us/azure/data-factory/connector-github?tabs=synapse-analytics)
 Done link with GitHub. Usage is to get a control version and map schemas of data flows.
+
+#### [Data Ingestion from events and messages]([https://learn.microsoft.com/en-us/azure/data-factory/connector-github?tabs=synapse-analytics](https://learn.microsoft.com/en-us/azure/service-bus-messaging/compare-messaging-services)https://learn.microsoft.com/en-us/azure/service-bus-messaging/compare-messaging-services)
+The event is done by taking data into consideration, that a change have happened it captures information via the metadata. Message is raw data to help data store the metadata.
+
+**Event services** Event Grid: PaaS to control the events, Event Grid on Kubernetes: cluster deploy on the cloud or on-premises. Event Hubs: big data streaming plataform.
+**Service Bus** Handles messages through a broker.
+
 
 ### Testing
 1. Existing storage account need to be prepared?

@@ -28,6 +28,7 @@ Finally processed and analysis using Apache Spark with SCALA and python, though 
 3. Storage data and here I will try to look for microservices in order to make the system scalable and reliable. I have 3 options first in Hadoop to use HDFS files for distributed storage, on Cosmo DB but this could be even a process before Synapse pipline actions thus it enhace globally stiribted mulimdel db service, and finally on Azure Data Storage Gen2 for having heriarchical options on a way to chreate schemas through azure blob storage
 4. I will build queryies on SQL pools to get the data but it will depend from where is comming. In case is from SQL Cosmo DB or Apache Spark API it could be possible to run with SQL pool serverless, otherwise from Data Lake Gen2 it will be useful to use SQL warehousing step before
 5. Do the analytics and ML models delpy using Apache Spark notebook. Try to do it from a different branch in github just to see how merge works
+6. Get evaluation performance with metrics and testing pipline through pytest, or other libraries which could be stored at  github codespaces, and integrated through github actions.
 
 ### Backlog dev
 
@@ -53,15 +54,17 @@ Next there is a step to [prepare and existing strage](https://learn.microsoft.co
 #### [Linked GitHub](https://learn.microsoft.com/en-us/azure/data-factory/connector-github?tabs=synapse-analytics)
 Done link with GitHub. Usage is to get a control version and map schemas of data flows.
 
-#### [Data Ingestion from events and messages]([https://learn.microsoft.com/en-us/azure/data-factory/connector-github?tabs=synapse-analytics](https://learn.microsoft.com/en-us/azure/service-bus-messaging/compare-messaging-services)https://learn.microsoft.com/en-us/azure/service-bus-messaging/compare-messaging-services)
-The event is done by taking data into consideration, that a change have happened it captures information via the metadata. Message is raw data to help data store the metadata.
+#### [Data Ingestion from events and messages](https://learn.microsoft.com/en-us/azure/service-bus-messaging/compare-messaging-services)
+The event is done by taking data into consideration, that a change have happened it captures information via the metadata, but publish information is unuse the job to haddle or the supposed audice that should receive it. Otherwise, if the information is knowed, this are messages, which are raw data with metadata information on where should it be stored.
 
 **Event services** Event Grid: PaaS to control the events with discreate distribution it can be performed through MQTT and HTTP (pull and push APIs) messaging, Event Grid on Kubernetes: cluster deploy on the cloud or on-premises. Event Hubs: big data countinous streaming plataform.
+
 **Service Bus** Handles messages through a broker. 
 
 ### Testing
 1. Existing storage account need to be prepared?
 2. 
+
 ### Review
 
 

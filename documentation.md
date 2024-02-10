@@ -56,7 +56,7 @@ Done link with GitHub. Usage is to get a control version and map schemas of data
 
 #### Data Ingestion
 
-[The data Ingestion from events and messages](https://learn.microsoft.com/en-us/azure/service-bus-messaging/compare-messaging-services) allowed to use [Events Hubs](https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-features) for large volume message processing mainly thorugh kafka or [Event Grid](https://learn.microsoft.com/en-us/azure/event-grid/overview) for specific message consumption patterns through MQTT and HTTP protocols. Therefore in this case none of the services are useful, then it will be better to make the ingestion through (Azure Data Factory)[https://learn.microsoft.com/en-us/azure/data-factory/introduction] which alows ETL processes for ingesting through triggers, managing data flow, scheduling and monitoring.
+[The data Ingestion from events and messages](https://learn.microsoft.com/en-us/azure/service-bus-messaging/compare-messaging-services) allowed to use [Events Hubs](https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-features) for large volume message processing mainly thorugh kafka or [Event Grid](https://learn.microsoft.com/en-us/azure/event-grid/overview) for specific message consumption patterns through MQTT and HTTP protocols. Therefore in this case none of the services are useful, then it will be better to make the ingestion through [Azure Data Factory](https://learn.microsoft.com/en-us/azure/data-factory/introduction) which alows ETL processes for ingesting through triggers, managing data flow, scheduling and monitoring.
 
 
 ### Testing

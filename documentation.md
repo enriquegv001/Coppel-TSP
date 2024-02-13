@@ -23,12 +23,18 @@ Finally processed and analysis using Apache Spark with SCALA and python, though 
 
 ## Scrum 
 ### Backlog
-1.  Linked to  Event Hubs or Event Grid.
-2. Create pipline orchestrating the actions while transforming the data through spark notebok as Linked Service
-3. Storage data and here I will try to look for microservices in order to make the system scalable and reliable. I have 3 options first in Hadoop to use HDFS files for distributed storage, on Cosmo DB but this could be even a process before Synapse pipline actions thus it enhace globally stiribted mulimdel db service, and finally on Azure Data Storage Gen2 for having heriarchical options on a way to chreate schemas through azure blob storage
-4. I will build queryies on SQL pools to get the data but it will depend from where is comming. In case is from SQL Cosmo DB or Apache Spark API it could be possible to run with SQL pool serverless, otherwise from Data Lake Gen2 it will be useful to use SQL warehousing step before
-5. Do the analytics and ML models delpy using Apache Spark notebook. Try to do it from a different branch in github just to see how merge works
-6. Get evaluation performance with metrics and testing pipline through pytest, or other libraries which could be stored at  github codespaces, and integrated through github actions.
+1. Do benchmark on other Architectures to see what technology are they using.
+Resources:
+https://www.striim.com/blog/guide-to-data-pipelines/
+https://learn.microsoft.com/en-us/azure/devops/pipelines/apps/cd/azure/cicd-data-overview?view=azure-devops
+https://microsoftlearning.github.io/dp-203-azure-data-engineer/Instructions/Labs/10-Synpase-pipeline.html
+
+3. Linked to  Event Hubs or Event Grid.
+4. Create pipline orchestrating the actions while transforming the data through spark notebok as Linked Service
+5. Storage data and here I will try to look for microservices in order to make the system scalable and reliable. I have 3 options first in Hadoop to use HDFS files for distributed storage, on Cosmo DB but this could be even a process before Synapse pipline actions thus it enhace globally stiribted mulimdel db service, and finally on Azure Data Storage Gen2 for having heriarchical options on a way to chreate schemas through azure blob storage
+6. I will build queryies on SQL pools to get the data but it will depend from where is comming. In case is from SQL Cosmo DB or Apache Spark API it could be possible to run with SQL pool serverless, otherwise from Data Lake Gen2 it will be useful to use SQL warehousing step before
+7. Do the analytics and ML models delpy using Apache Spark notebook. Try to do it from a different branch in github just to see how merge works
+8. Get evaluation performance with metrics and testing pipline through pytest, or other libraries which could be stored at  github codespaces, and integrated through github actions.
 
 ### Backlog dev
 
@@ -56,7 +62,7 @@ Done link with GitHub. Usage is to get a control version and map schemas of data
 
 #### Data Ingestion
 
-[The data Ingestion from events and messages](https://learn.microsoft.com/en-us/azure/service-bus-messaging/compare-messaging-services) allowed to use [Events Hubs](https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-features) for large volume message processing mainly thorugh kafka or [Event Grid](https://learn.microsoft.com/en-us/azure/event-grid/overview) for specific message consumption patterns through MQTT and HTTP protocols. Therefore in this case none of the services are useful, then it will be better to make the ingestion through [Azure Data Factory](https://learn.microsoft.com/en-us/azure/data-factory/introduction) which alows ETL processes for ingesting through triggers, managing data flow, scheduling and monitoring.
+[The data Ingestion from events and messages](https://learn.microsoft.com/en-us/azure/service-bus-messaging/compare-messaging-services) allowed to use [Events Hubs](https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-features) for large volume message processing mainly thorugh kafka or [Event Grid](https://learn.microsoft.com/en-us/azure/event-grid/overview) for specific message consumption patterns through MQTT and HTTP protocols. Altough, [Azure Data Factory](https://learn.microsoft.com/en-us/azure/data-factory/introduction) alows ETL processes for ingesting through triggers, managing data flow, scheduling and monitoring which while seem helpful, is another plataform for builing piplene, therefore the data will be ingested through.
 
 
 ### Testing

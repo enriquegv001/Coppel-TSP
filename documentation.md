@@ -52,6 +52,8 @@ The storage ```projects1lake``` parameters considered:
 - security: since is priority minimum options should have acivated REST API, enable key accosunt access, min TLS
 - storage: Enable hierarchical namespace is usefull to allow parallel function in Big Data workloads
 
+And ```route-opi``` wil be the first container from it.
+
 #### [Synapse Workspace](https://learn.microsoft.com/en-us/azure/synapse-analytics/quickstart-create-workspace)
 From Data Lake account created before, link a new workspace ```ws-route-opti```, thus the synapse data will be store at one of the containers Data Lake, this file system it has been stored as ```route-opti```. SQL server credentials (sqladminuser, sqladmin-pa55). After creation, enter the workspace > overview > Open Synapse Studio. 
 
@@ -63,6 +65,8 @@ Done link with GitHub. Usage is to get a control version and map schemas of data
 #### Data Ingestion
 
 [The data Ingestion from events and messages](https://learn.microsoft.com/en-us/azure/service-bus-messaging/compare-messaging-services) allowed to use [Events Hubs](https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-features) for large volume message processing mainly thorugh kafka or [Event Grid](https://learn.microsoft.com/en-us/azure/event-grid/overview) for specific message consumption patterns through MQTT and HTTP protocols. Altough, [Azure Data Factory](https://learn.microsoft.com/en-us/azure/data-factory/introduction) alows ETL processes for ingesting through triggers, managing data flow, scheduling and monitoring which while seem helpful, is another plataform for builing piplene, therefore the data will be ingested through.
+
+At the moment, ```trigger1``` will be based on the eventrs occurinng at the container ```route-opti``` driectory ```route1```.
 
 
 ### Testing

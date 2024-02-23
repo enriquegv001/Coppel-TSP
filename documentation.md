@@ -23,7 +23,7 @@ Finally processed and analysis using Apache Spark with SCALA and python, though 
 
 ## Scrum 
 ### Backlog
-1. Do benchmark on other Architectures to see what technology are they using.
+1. Do benchmark on other Architectures to see what technology are they using. And check to do it through virtualization techniques from cloud with the purpose to orient all thechnologies towards DevOps technologies and not Data Engineering.
 Resources:
 https://www.striim.com/blog/guide-to-data-pipelines/
 https://learn.microsoft.com/en-us/azure/devops/pipelines/apps/cd/azure/cicd-data-overview?view=azure-devops
